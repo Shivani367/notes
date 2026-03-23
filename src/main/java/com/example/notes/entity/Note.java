@@ -1,4 +1,4 @@
-package com.yourapp.notes.entity;
+package com.example.notes.entity;
 
 import jakarta.persistence.*;
 import java.time.Instant;
@@ -24,7 +24,8 @@ public class Note {
     private Instant createdAt;
     private Instant updatedAt;
 
-    // Getters and Setters
+    // Getters & Setters
+
     public String getId() { return id; }
 
     public String getTitle() { return title; }
